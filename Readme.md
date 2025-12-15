@@ -17,6 +17,8 @@
 
 1. Si la función es llamada con `n=10`, ¿cuál es el valor de la variable `n` que se visualiza en la ventana de variables del debugger justo antes de que se ejecute la línea `serie = [0, 1]`?
 
+- El valor de n es 10, porque ese es el argumento pasado a la función
+![img_1.png](img_1.png)
 ---
 
 ### Apartado 2
@@ -29,9 +31,23 @@
 
 1. Justo cuando el debugger se detiene dentro de la función `calcular_siguiente` por **primera vez**, ¿cuál es el valor que tiene la variable local `aux` *después* de que se ejecute la línea `aux = serie[-1] + serie[-2]`?
 **(Indica el valor numérico exacto de la variable `aux` en ese momento y el nombre de la herramienta de *debugging* que utilizaste para entrar en la función).**
-2. Si estuvieras dentro de la función `calcular_siguiente` y quisieras salir rápidamente sin ejecutar el resto de las líneas, volviendo al punto de llamada en `funcion_bucle`, ¿qué función del debugger deberías usar?
-3. ¿Qué diferencia fundamental existe entre usar *Step Over* y *Step Into* en la línea `siguiente_numero = calcular_siguiente(serie)`?
 
+- La variable aux=1
+![img_2.png](img_2.png)
+- utlizamos la herramienta step into
+![img_3.png](img_3.png)(La primera que aperece en la imagen)
+
+
+4. Si estuvieras dentro de la función `calcular_siguiente` y quisieras salir rápidamente sin ejecutar el resto de las líneas, volviendo al punto de llamada en `funcion_bucle`, ¿qué función del debugger deberías usar?
+
+- Utilizamos la herramienta step out
+![img_4.png](img_4.png)
+
+5. ¿Qué diferencia fundamental existe entre usar *Step Over* y *Step Into* en la línea `siguiente_numero = calcular_siguiente(serie)`?
+
+- Step Into: Entra dentro de la función. Permite depurar el código.
+
+- Step Over: Ejecuta la función completa sin entrar dentro, avanzando a la siguientes líneas del código.
 ---
 
 ### Apartado 3
@@ -42,5 +58,6 @@
 **Pregunta**
 
 1. Cuando el *Breakpoint Condicional* se activa por **primera vez** (la primera vez que `siguiente_numero` es mayor que 20000), ¿qué longitud tiene `serie`?
-
+Una longitud de 24
+![img_5.png](img_5.png)
 ---

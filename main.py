@@ -2,7 +2,7 @@ def calcular_siguiente(serie):
     aux = serie[-1] + serie[-2]
     return aux
 
-def funcion_bucle(n):
+def funcion_bucle(n=10):
     if n <= 0:
         return []
     elif n == 1:
@@ -15,4 +15,4 @@ def funcion_bucle(n):
         return serie
 
 # Ejemplo de uso:
-print(funcion_bucle(1000))
+print(funcion_bucle())
