@@ -59,5 +59,5 @@
 
 1. Cuando el *Breakpoint Condicional* se activa por **primera vez** (la primera vez que `siguiente_numero` es mayor que 20000), ¿qué longitud tiene `serie`?
 Una longitud de 24
-![imagen](imagenes/img_5.png)
+![img_8.png](img_8.png)
 ---
