@@ -35,13 +35,13 @@
 - La variable aux=1
 ![imagen.png](img_2.png)
 - utlizamos la herramienta step into
-![imagen.png](img_3.png)(La primera que aperece en la imagen)
+![img_6.png](img_6.png)
 
 
 4. Si estuvieras dentro de la función `calcular_siguiente` y quisieras salir rápidamente sin ejecutar el resto de las líneas, volviendo al punto de llamada en `funcion_bucle`, ¿qué función del debugger deberías usar?
 
 - Utilizamos la herramienta step out
-![imagen](img_4.png)
+![img_7.png](img_7.png)
 
 5. ¿Qué diferencia fundamental existe entre usar *Step Over* y *Step Into* en la línea `siguiente_numero = calcular_siguiente(serie)`?
 
