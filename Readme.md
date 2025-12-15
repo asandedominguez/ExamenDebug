@@ -41,7 +41,7 @@
 4. Si estuvieras dentro de la función `calcular_siguiente` y quisieras salir rápidamente sin ejecutar el resto de las líneas, volviendo al punto de llamada en `funcion_bucle`, ¿qué función del debugger deberías usar?
 
 - Utilizamos la herramienta step out
-![img_4.png](img_4.png)
+![2](img_4.png)
 
 5. ¿Qué diferencia fundamental existe entre usar *Step Over* y *Step Into* en la línea `siguiente_numero = calcular_siguiente(serie)`?
 
@@ -59,5 +59,5 @@
 
 1. Cuando el *Breakpoint Condicional* se activa por **primera vez** (la primera vez que `siguiente_numero` es mayor que 20000), ¿qué longitud tiene `serie`?
 Una longitud de 24
-![img_5.png](img_5.png)
+![1](imagenes/img_5.png)
 ---
